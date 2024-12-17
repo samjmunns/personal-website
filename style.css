@@ -1,0 +1,91 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Clean and modern font */
+    background-color: #39455B; /* Deep steel blue for contrast */
+    color: #F8E9D5; /* Maastricht Blue for text */
+}
+
+/* Header Styling */
+header {
+    color: #F8E9D5; /* Antique White for text on dark background */
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+/* Buttons */
+button {
+    background-color: #4281A5; /* Steel Blue for a pop of color */
+    color: #F8E9D5;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #031C34; /* Darker shade for hover effect */
+}
+
+/* Section Styling */
+section {
+    padding: 2rem;
+}
+
+section h2 {
+    font-size: 2rem;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #031C34; /* Deep blue for footer */
+    color: #F8E9D5;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Div Styling (Newly Added) */
+
+/* Div 1 - Hero Section */
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Fixed height for hero section */
+    background-color: #4281A5; /* Steel Blue background */
+}
+
+/* Div 2 - Content Block */
+.content-block {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px; /* Centered block with max width */
+    background-color: #F8E9D5; /* Light background for contrast */
+    color: #031C34; /* Dark text color */
+}
+
+/* Div 3 - Sidebar */
+.sidebar {
+    float: right; /* Align sidebar to the right of content */
+    width: 300px; /* Fixed width for sidebar */
+    padding: 1rem;
+    background-color: #39455B; /* Darker shade for sidebar */
+}
+
+/* Opti
